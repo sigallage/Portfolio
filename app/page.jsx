@@ -25,7 +25,7 @@ export default function Home() {
                   <Mail className="mr-2 h-4 w-4" /> Contact Me
                 </Button>
                 </a>
-                <a href="/sigallage.pdf" download>
+                <a href="/SIGallage.pdf" download>
                 <Button variant="outline" className="border-emerald-600 text-emerald-400 hover:bg-gray-800">
                   Download CV
                 </Button>
