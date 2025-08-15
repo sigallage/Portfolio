@@ -111,17 +111,17 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-white mb-12 text-center">Skills & Technologies</h2>
 
           <Tabs defaultValue="languages" className="w-full">
-            <TabsList className="grid w-full grid-cols-4 mb-8 bg-gray-800">
-              <TabsTrigger value="languages" className="data-[state=active]:bg-gray-700">
+            <TabsList className="grid w-full grid-cols-4 mb-8 bg-gray-800 h-12">
+              <TabsTrigger value="languages" className="data-[state=active]:bg-gray-700 text-base font-medium py-3 px-4">
                 Languages
               </TabsTrigger>
-              <TabsTrigger value="frontend" className="data-[state=active]:bg-gray-700">
+              <TabsTrigger value="frontend" className="data-[state=active]:bg-gray-700 text-base font-medium py-3 px-4">
                 Frontend
               </TabsTrigger>
-              <TabsTrigger value="backend" className="data-[state=active]:bg-gray-700">
+              <TabsTrigger value="backend" className="data-[state=active]:bg-gray-700 text-base font-medium py-3 px-4">
                 Backend
               </TabsTrigger>
-              <TabsTrigger value="tools" className="data-[state=active]:bg-gray-700">
+              <TabsTrigger value="tools" className="data-[state=active]:bg-gray-700 text-base font-medium py-3 px-4">
                 Tools & Databases
               </TabsTrigger>
             </TabsList>
