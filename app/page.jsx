@@ -194,6 +194,7 @@ export default function Home() {
               description="GainsLog is a full-stack fitness tracking web application that helps users log workouts, track progress, and generate AI-powered workout plans tailoredto their fitness level and experience. The app integrates Google authentication, MongoDB for data storage, and HuggingFace API to generatepersonalized workout plans."
               technologies={["CSS", "React", "NodeJS", "ExpressJS", "MongoDB", "Auth0"]}
               imageUrl="/GainsLog.png?height=200&width=400"
+              githubUrl="https://github.com/sigallage/GainsLog"
             />
 
             <ProjectCard
@@ -201,12 +202,14 @@ export default function Home() {
               description="Mini Job Board is a full-stack web application that allows users to browse and filter job listings, while administrators can securely log in, post new jobs,and manage postings through a dedicated dashboard. The app includes real-time form validation, responsive design, and secure authentication usingJWT. PostgreSQL handles data persistence, and the interface is built with a clean, modern design using Tailwind CSS."
               technologies={["React", "Tailwind CSS", "NodeJS", "ExpressJS", "PostgreSQL", "JWT"]}
               imageUrl="/MiniJobBoard.png?height=200&width=400"
+              githubUrl="https://github.com/sigallage/mini-job-web"
             />
             <ProjectCard
               title="Budget-Tracker"
               description="Full-stack expense tracking and group budget management app with real-time expense updates,category-based tracking, and secure authentication via Auth0. Features include group-based expensesharing, interactive charts, and a responsive dark-themed UI. Backend built with Express.js and MongoDB for persistent storage and protected routes."
               technologies={["React", "CSS", "NodeJS", "ExpressJS", "MongoDB", "Auth0"]}
               imageUrl="/BudgetTracker.png?height=200&width=400"
+              githubUrl="https://github.com/sigallage/Budget-Tracker"
             />
 
 
