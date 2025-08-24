@@ -248,6 +248,14 @@ export default function Home() {
             />
 
             <ProjectCard
+              title="Career Pilot"
+              description="Worked with a team to build Career Pilot, a career guidance website designed to help users explore job opportunities. I developed and trained a machine learning model that predicts job roles based on a minimum of three user-provided skills, enabling personalized career suggestions. In addition, I built an AI-powered interview question generator that dynamically creates practice questions, helping users prepare more effectively for interviews. My contributions focused on integrating AI features and enhancing the overall functionality of the platform."
+              technologies={["React", "Express.js", "Python", "Ballerina"]}
+              imageUrl="/CareerPilot.png?height=200&width=400"
+              githubUrl="https://github.com/sigallage/CareerPilothttps://github.com/sigallage/iwb25-120-thestackmasters.git"
+            />
+
+            <ProjectCard
               title="Traffic Data Analysis System"
               description="Developed a program to analyze traffic flow data collected from local road junctions. Allowed users to select and analyze specific CSV datasets basedon date. Summarized traffic flow data for council decision-making. Implemented features to save results as a text file and visualize data using ahistogram."
               technologies={["Python", "Tkinter"]}
