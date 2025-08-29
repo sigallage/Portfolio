@@ -256,6 +256,22 @@ export default function Home() {
             />
 
             <ProjectCard
+              title="MailSweeper"
+              description="Full-stack email management application for Gmail account cleanup and organization with OAuth 2.0 authentication. Features include advanced email filtering, sender-based search functionality, bulk email deletion, and secure Gmail API integration. Built with React frontend and Express.js backend, deployed on Vercel and Railway with CORS-enabled cross-origin authentication flow."
+              technologies={[
+                "React",
+                "Node.js",
+                "Express.js",
+                "Gmail API",
+                "OAuth 2.0",
+                "Vercel",
+                "Railway",
+              ]}
+              imageUrl="/MailSweeper.png?height=200&width=400"
+              githubUrl="https://github.com/sigallage/MailSweep"
+            />
+
+            <ProjectCard
               title="Traffic Data Analysis System"
               description="Developed a program to analyze traffic flow data collected from local road junctions. Allowed users to select and analyze specific CSV datasets basedon date. Summarized traffic flow data for council decision-making. Implemented features to save results as a text file and visualize data using ahistogram."
               technologies={["Python", "Tkinter"]}
