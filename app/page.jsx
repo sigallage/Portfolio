@@ -248,41 +248,26 @@ export default function Home() {
             />
 
             <ProjectCard
+              title="Budget-Tracker"
+              description="Full-stack expense tracking and group budget management app with real-time expense updates,category-based tracking, and secure authentication via Auth0. Features include group-based expensesharing, interactive charts, and a responsive dark-themed UI. Backend built with Express.js and MongoDB for persistent storage and protected routes."
+              technologies={[
+                "React",
+                "CSS",
+                "NodeJS",
+                "ExpressJS",
+                "MongoDB",
+                "Auth0",
+              ]}
+              imageUrl="/BudgetTracker.png?height=200&width=400"
+              githubUrl="https://github.com/sigallage/Budget-Tracker"
+            />
+
+            <ProjectCard
               title="Career Pilot"
               description="Worked with a team to build Career Pilot, a career guidance website designed to help users explore job opportunities. I developed and trained a machine learning model that predicts job roles based on a minimum of three user-provided skills, enabling personalized career suggestions. In addition, I built an AI-powered interview question generator that dynamically creates practice questions, helping users prepare more effectively for interviews. My contributions focused on integrating AI features and enhancing the overall functionality of the platform."
               technologies={["React", "Express.js", "Python", "Ballerina"]}
               imageUrl="/CareerPilot.png?height=200&width=400"
               githubUrl="https://github.com/sigallage/CareerPilothttps://github.com/sigallage/iwb25-120-thestackmasters.git"
-            />
-
-            <ProjectCard
-              title="MailSweeper"
-              description="Full-stack email management application for Gmail account cleanup and organization with OAuth 2.0 authentication. Features include advanced email filtering, sender-based search functionality, bulk email deletion, and secure Gmail API integration. Built with React frontend and Express.js backend, deployed on Vercel and Railway with CORS-enabled cross-origin authentication flow."
-              technologies={[
-                "React",
-                "Node.js",
-                "Express.js",
-                "Gmail API",
-                "OAuth 2.0",
-                "Vercel",
-                "Railway",
-              ]}
-              imageUrl="/MailSweeper.png?height=200&width=400"
-              githubUrl="https://github.com/sigallage/MailSweep"
-            />
-
-            <ProjectCard
-              title="Traffic Data Analysis System"
-              description="Developed a program to analyze traffic flow data collected from local road junctions. Allowed users to select and analyze specific CSV datasets basedon date. Summarized traffic flow data for council decision-making. Implemented features to save results as a text file and visualize data using ahistogram."
-              technologies={["Python", "Tkinter"]}
-              imageUrl="/TrafficDataAnalysisSystem.png?height=200&width=400"
-            />
-
-            <ProjectCard
-              title="Health & Well-being According to SDGs"
-              description="Developing a front-end website focused on health and well-being based on Sustainable Development Goals"
-              technologies={["HTML", "CSS", "JavaScript"]}
-              imageUrl="/Health&Wellbeing.png?height=200&width=400"
             />
 
             <ProjectCard
@@ -299,19 +284,19 @@ export default function Home() {
               imageUrl="/MiniJobBoard.png?height=200&width=400"
               githubUrl="https://github.com/sigallage/mini-job-web"
             />
+
             <ProjectCard
-              title="Budget-Tracker"
-              description="Full-stack expense tracking and group budget management app with real-time expense updates,category-based tracking, and secure authentication via Auth0. Features include group-based expensesharing, interactive charts, and a responsive dark-themed UI. Backend built with Express.js and MongoDB for persistent storage and protected routes."
-              technologies={[
-                "React",
-                "CSS",
-                "NodeJS",
-                "ExpressJS",
-                "MongoDB",
-                "Auth0",
-              ]}
-              imageUrl="/BudgetTracker.png?height=200&width=400"
-              githubUrl="https://github.com/sigallage/Budget-Tracker"
+              title="Health & Well-being According to SDGs"
+              description="Developing a front-end website focused on health and well-being based on Sustainable Development Goals"
+              technologies={["HTML", "CSS", "JavaScript"]}
+              imageUrl="/Health&Wellbeing.png?height=200&width=400"
+            />
+
+            <ProjectCard
+              title="Traffic Data Analysis System"
+              description="Developed a program to analyze traffic flow data collected from local road junctions. Allowed users to select and analyze specific CSV datasets basedon date. Summarized traffic flow data for council decision-making. Implemented features to save results as a text file and visualize data using ahistogram."
+              technologies={["Python", "Tkinter"]}
+              imageUrl="/TrafficDataAnalysisSystem.png?height=200&width=400"
             />
           </div>
         </div>
