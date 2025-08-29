@@ -271,6 +271,22 @@ export default function Home() {
             />
 
             <ProjectCard
+              title="MailSweeper"
+              description="Full-stack email management application for Gmail account cleanup and organization with OAuth 2.0 authentication. Features include advanced email filtering, sender-based search functionality, bulk email deletion, and secure Gmail API integration. Built with React frontend and Express.js backend, deployed on Vercel and Railway with CORS-enabled cross-origin authentication flow."
+              technologies={[
+                "React",
+                "Node.js",
+                "Express.js",
+                "Gmail API",
+                "OAuth 2.0",
+                "Vercel",
+                "Railway",
+              ]}
+              imageUrl="/MailSweeper.png?height=200&width=400"
+              githubUrl="https://github.com/sigallage/MailSweep"
+            />
+
+            <ProjectCard
               title="Mini Job Board"
               description="Mini Job Board is a full-stack web application that allows users to browse and filter job listings, while administrators can securely log in, post new jobs,and manage postings through a dedicated dashboard. The app includes real-time form validation, responsive design, and secure authentication usingJWT. PostgreSQL handles data persistence, and the interface is built with a clean, modern design using Tailwind CSS."
               technologies={[
