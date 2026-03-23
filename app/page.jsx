@@ -233,6 +233,23 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
+              title="CeylonRoam"
+              description="AI travel planner that generates itineraries and optimizes multi-stop routes using Google Maps distance/time matrices to minimize travel time. Containerized backend services with Docker and deployed on AWS ECS/Fargate with ECR and CloudWatch, with scripts to automate repeatable releases."
+              technologies={[
+                "React",
+                "Node.js",
+                "Express.js",
+                "FastAPI",
+                "Google Maps APIs",
+                "Docker",
+                "AWS",
+                "Vercel",
+              ]}
+              imageUrl="/CeylonRoam.png?height=200&width=400"
+              githubUrl="https://github.com/sigallage/CeylonRoam"
+            />
+
+            <ProjectCard
               title="GainsLog"
               description="GainsLog is a full-stack fitness tracking web application that helps users log workouts, track progress, and generate AI-powered workout plans tailoredto their fitness level and experience. The app integrates Google authentication, MongoDB for data storage, and HuggingFace API to generatepersonalized workout plans."
               technologies={[
