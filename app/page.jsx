@@ -214,6 +214,8 @@ export default function Home() {
                 <SkillBadge name="VS Code" icon="vscode" />
                 <SkillBadge name="PyCharm" icon="pycharm" />
                 <SkillBadge name="IntelliJ IDEA" icon="intellij" />
+                <SkillBadge name="Docker" icon="docker" />
+                <SkillBadge name="AWS" icon="aws" />
                 <SkillBadge name="MySQL" icon="mysql" />
                 <SkillBadge name="PostgreSQL" icon="postgresql" />
                 <SkillBadge name="MongoDB" icon="mongodb" />

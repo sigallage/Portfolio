@@ -38,6 +38,10 @@ export default function SkillBadge({ name, icon }) {
         return "bg-green-900 border-green-700"
       case "git":
         return "bg-red-900 border-red-700"
+      case "docker":
+        return "bg-blue-900 border-blue-700"
+      case "aws":
+        return "bg-orange-900 border-orange-700"
       default:
         return "bg-gray-800 border-gray-700"
     }
@@ -71,6 +75,9 @@ export default function SkillBadge({ name, icon }) {
         return <Database className="mr-2 h-4 w-4" />
       case "git":
         return <Workflow className="mr-2 h-4 w-4" />
+      case "docker":
+      case "aws":
+        return <Server className="mr-2 h-4 w-4" />
       default:
         return <Code className="mr-2 h-4 w-4" />
     }
@@ -113,6 +120,10 @@ export default function SkillBadge({ name, icon }) {
         return "MDB"
       case "git":
         return "Git"
+      case "docker":
+        return "Doc"
+      case "aws":
+        return "AWS"
       default:
         return name.substring(0, 2).toUpperCase()
     }
