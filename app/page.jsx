@@ -226,6 +226,40 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Experience Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-black">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-white mb-12 text-center">
+            Experience
+          </h2>
+
+          <div className="bg-gray-900 p-8 rounded-xl border border-gray-800">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
+              <h3 className="text-xl font-semibold text-white">
+                Full-Stack Developer Intern, Infinity AI
+              </h3>
+              <span className="text-emerald-400 text-sm">
+                Oct 2025 - Apr 2026 (Remote)
+              </span>
+            </div>
+            <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <li>
+                Contributing to the development of InfinityOS by working on both
+                frontend and backend integration.
+              </li>
+              <li>
+                Developing and maintaining frontend features using React,
+                focusing on reusable components and clean UI architecture.
+              </li>
+              <li>
+                Integrating frontend components with backend APIs to ensure
+                smooth data flow and system reliability.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* Projects Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
         <div className="max-w-6xl mx-auto">
